@@ -1,5 +1,4 @@
 .body {
-    width: 100%;
     margin: 0;
     padding: 0;
     color: #000;
@@ -9,29 +8,14 @@
     position: fixed;
     left: 0;
     top: 0;
-    width: 100%;
-    display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 10px;
     font-weight: bold;
     background-color: #fff;
     box-sizing: border-box;
 }
 
-.logo {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    color: inherit;
-}
-
-.logo-text {
-    color: rgb(48, 56, 70);
-}
-
 .logo-img {
-    display: block;
     margin-right: 20px;
     width: 40px;
     height: 40px;
@@ -40,7 +24,6 @@
 .menu-list {
     margin: 0;
     padding: 0;
-    display: flex;
     list-style: none;
 }
 
@@ -48,24 +31,11 @@
     margin-right: 20px;
 }
 
-.menu-link {
-    text-decoration: none;
-    color: rgb(48, 56, 70);
-    display: block;
-}
-
-.main {
-    color: rgb(48, 56, 70);
-    font-family: Arial, sans-serif;
-}
-
 .main-content {
-    width: 100%;
     padding-top: 120px;
     padding-bottom: 30px;
-    display: flex;
     flex-direction: column;
-    align-items: center;
+    font-family: Arial, sans-serif;
     background: url('../images/banner.png') center;
 }
 
@@ -75,7 +45,6 @@
 }
 
 .main-content-header {
-    color: white;
     font-size: 50px;
     padding-top: 10px;
     margin: 0;
@@ -83,7 +52,6 @@
 
 .main-content-p {
     margin-bottom: 10px;
-    color: white;
     font-size: 20px;
     font-weight: bold;
 }
@@ -91,23 +59,16 @@
 .main-content-button {
     padding: 10px 20px;
     border: 2px solid white;
-    color: white;
     border-radius: 10px;
     font-weight: bold;
-    font-size: 16px;
     margin-top: 10px;
     display: inline-block;
     background-color: transparent;
-    text-decoration: none;
 }
 
 .main-advantages-title {
     padding-bottom: 20px;
     font-size: 28px;
-}
-
-.main-advantages-content {
-    font-size: 14px;
 }
 
 .section-wrapper {
@@ -120,7 +81,6 @@
 }
 
 .advantages {
-    width: 100%;
     height: 250px;
     overflow-x: hidden;
     padding-top: 60px;
@@ -128,7 +88,6 @@
 }
 
 .advantages-wrapper {
-    display: flex;
     justify-content: space-between;
 }
 
@@ -140,14 +99,12 @@
 }
 
 .about {
-    width: 100%;
     background-color: #f7f7f7;
     padding-top: 40px;
     padding-bottom: 50px;
 }
 
 .about-wrapper {
-    display: flex;
     justify-content: center;
 }
 
@@ -164,9 +121,7 @@
 
 .about-text {
     padding-bottom: 10px;
-    padding-top: 10px;
-    font-size: 14px;
-    
+    padding-top: 10px; 
 }
 
 .about-img {
@@ -174,19 +129,12 @@
     padding-top: 30px;
 }
 
-.about-img-picture {
-    width: 100%;
-    display: block;
-}
-
 .rest {
-    width: 100%;
     padding-top: 40px;
     padding-bottom: 50px;
 }
 
 .rest-wrapper {
-    display: flex;
     justify-content: center;
 }
 
@@ -199,7 +147,6 @@
 .rest-text {
     padding-bottom: 10px;
     padding-top: 10px;
-    font-size: 14px;
 }
 
 .rest-info {
@@ -212,20 +159,13 @@
     padding-top: 30px;
 }
 
-.rest-img-picture {
-    width: 100%;
-    display: block;
-}
-
 .form {
     background-color: #f7f7f7;
     padding: 40px;
 }
 
 .form-wrapper {
-    display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
     padding: 60px;
     
@@ -255,7 +195,6 @@
 }
 
 .form-item {
-    display: flex;
     align-items: baseline;
     justify-content: space-between;
     margin-top: 10px;
@@ -270,18 +209,10 @@
     width: 150px;
     margin-right: 50px;
     margin-left: 30px;
-    border-radius: 10px;
-    height: 30px;
-    background-color: #fff;
-    border: 1px solid rgb(204, 204, 204);
 }
 
 .form-input {
     width: 200px;
-    border-radius: 10px;
-    height: 30px;
-    background-color: #fff;
-    border: 1px solid rgb(204, 204, 204);
 }
 
 .form-button {
@@ -290,16 +221,13 @@
     color: #2ed5b2;
     border-radius: 10px;
     font-weight: bold;
-    font-size: 16px;
     margin-top: 20px;
     display: inline-block;
     background-color: transparent;
 }
 
 .footer {
-    width: 100%;
-    background-color: #2f3746;
-    color: #fff;
+    background-color:rgb(48, 56, 70);
     padding-top: 60px;
     padding-bottom: 60px;
 }
@@ -310,22 +238,15 @@
     padding-right: 20px;
     margin-left: auto;
     margin-right: auto;
-    display: flex;
-    align-items: center;
     justify-content: space-between;
 }
 
 .footer-panel {
-    display: flex;
     flex-direction: column;
 }
 
 .footer-panel-left {
     align-items: flex-start;
-}
-
-.footer-panel-center {
-    align-items: center;
 }
 
 .footer-panel-right {
@@ -347,8 +268,51 @@
     margin: 0;
 }
 
-.footer-list-link {
+.logo-text-footer {
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.flex {
+    display: flex;
+}
+
+.block {
+    display: block;
+}
+
+.color-gray {
+    color: rgb(48, 56, 70);
+}
+
+.form-desc {
+    border-radius: 10px;
+    height: 30px;
+    background-color: #fff;
+    border: 1px solid rgb(204, 204, 204);
+}
+
+.align-center {
+    align-items: center;
+}
+
+.white {
+    color: white;
+}
+
+.text-16px {
+    font-size: 16px;
+}
+
+.wd-100 {
+    width: 100%;
+}
+
+.txt-dec-none {
+    text-decoration: none;
+}
+
+.inherit {
     color: inherit;
-    text-decoration: none;  
 }
 
