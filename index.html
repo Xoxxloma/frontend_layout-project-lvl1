@@ -27,15 +27,18 @@
             </ul>
         </nav>
     </header>
+
     <main class="main color-gray">
-        <section class="main-content flex align-center wd-100">
-            <img src="images/logo.svg" alt="Логотип ЖК" class="main-content-logo-img">
-            <h1 class="main-content-header white">ЖК «Лунное море»</h1>
-            <p class="main-content-p white">Место, откуда не хочется улетать</p>
-            <a class="main-content-button txt-dec-none white" href="#form">Забронировать</a>
+        <section class="main-content pd-50 wd-100">
+            <div class="main-wrapper pd-50 flex align-center">
+              <img src="images/logo.svg" alt="Логотип ЖК" class="main-content-logo-img">
+              <h1 class="main-content-header white">ЖК «Лунное море»</h1>
+              <p class="main-content-p white">Место, откуда не хочется улетать</p>
+              <a class="main-content-button txt-dec-none white" href="#form">Забронировать</a>
+            </div>
         </section>
-        <section class="advantages section wd-100" id="advantages">
-            <div class="section-wrapper advantages-wrapper flex">
+        <section class="advantages pd-50 section wd-100 align-center" id="advantages">
+            <div class="section-wrapper flex">
                 <div class="advantages-item">
                     <h2 class="main-advantages-title">Уникальный вид</h2>
                     <p class="text-16px">Вид на космос из вашего окна. Мы построили дома с большими окнами, чтобы вы могли наслаждаться метеоритными потоками.</p>
@@ -51,26 +54,26 @@
                 </div>
            </div>
         </section>
-        <section class="about wd-100" id="about">
-            <div class="section-wrapper about-wrapper flex">
+        <section class="about pd-50 wd-100" id="about">
+            <div class="section-wrapper jc-around flex">
                 <div class="about-info">
-                    <h2 class="about-title">О ЖК «Лунное море»</h2>
+                    <h2 class="about-title flex">О ЖК «Лунное море»</h2>
                     <p class="about-text text-16px">Все чаще жители Москвы предпочитают загородный дом городской квартире, 
                         к тому же связь с мегаполисом не теряется – современные скоростные трассы позволяют без труда добираться до столицы и обратно.</p>
                     <p class="about-text text-16px">Мы построили наши дома на самом близком к Солнцу спутнике, всего в 380 тысяч километров от Земли.</p>
                 </div>
-                <div class="about-img">
+                <div class="about-img wd-390">
                     <img src="images/moon-1.jpg" alt="moon" class="block wd-100">
                 </div>
             </div>
         </section>
-        <section class="rest wd-100" id="rest">
-            <div class="section-wrapper rest-wrapper flex">
-                <div class="rest-img">
+        <section class="pd-50 wd-100" id="rest">
+            <div class="section-wrapper jc-around flex">
+                <div class="rest-img wd-390">
                     <img src="images/moon-2.jpg" alt="rest on the moon" class="block wd-100">
                 </div>
                 <div class="rest-info">
-                    <h2 class="rest-title">Места для отдыха</h2>
+                    <h2 class="rest-title flex">Места для отдыха</h2>
                     <p class="rest-text text-16px">Луна обладает всеми условиями для комфортного отдыха от большого города. В вашем распоряжении 22 моря и 18 гор. 
                         Самое ближайшее кольцо гор всего в 200 километров от вашей квартиры.</p>
                     <p class="rest-text text-16px">Дома располагаются в новом районе «Лунные моря». При необходимости есть автобусы до района «Лунный материк».</p>
@@ -82,7 +85,7 @@
                 <h2 class="form-title">Оставьте заявку сегодня!</h2>
                 <form action="#">
                     <fieldset>
-                        <legend>Параметры квартиры</legend>
+                        <legend class=>Параметры квартиры</legend>
                         <div class="form-item flex">
                             <label class="form-label" for="countRooms">Количество комнат:</label>
                             <select class="form-select form-desc" id="countRooms">
@@ -122,6 +125,7 @@
             </div>
         </section>
     </main>
+
     <footer class="footer white wd-100">
         <div class="footer-wrapper flex align-center">
             <div class="footer-panel footer_panel-left flex">

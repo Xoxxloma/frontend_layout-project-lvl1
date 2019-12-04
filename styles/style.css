@@ -32,38 +32,46 @@
 }
 
 .main-content {
-    padding-top: 120px;
-    padding-bottom: 30px;
+    height: 500px;
+    background: url(../images/banner.png) center no-repeat;
+    background-size: cover;
+}
+
+.main-wrapper {
     flex-direction: column;
-    font-family: Arial, sans-serif;
-    background: url('../images/banner.png') center;
+    justify-content: center;
 }
 
 .main-content-logo-img {
-    width: 15%; 
-    height: 25%;
+    width: 200px; 
+    height: 200px;
 }
 
 .main-content-header {
-    font-size: 50px;
-    padding-top: 10px;
-    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
 }
-
+  
 .main-content-p {
-    margin-bottom: 10px;
-    font-size: 20px;
-    font-weight: bold;
+    margin-bottom: 3rem;
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
 }
 
 .main-content-button {
-    padding: 10px 20px;
-    border: 2px solid white;
-    border-radius: 10px;
-    font-weight: bold;
-    margin-top: 10px;
     display: inline-block;
-    background-color: transparent;
+    background: 0;
+    padding: 15px 25px;
+    text-decoration: none;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
 }
 
 .main-advantages-title {
@@ -73,22 +81,13 @@
 
 .section-wrapper {
     max-width: 1300px;
-    padding-left: 20px;
-    padding-right: 20px;
     margin-left: auto;
-    margin-right: auto;
-    
+    margin-right: auto; 
 }
 
 .advantages {
     height: 250px;
     overflow-x: hidden;
-    padding-top: 60px;
-    padding-bottom: 40px;
-}
-
-.advantages-wrapper {
-    justify-content: space-between;
 }
 
 .advantages-item {
@@ -100,22 +99,14 @@
 
 .about {
     background-color: #f7f7f7;
-    padding-top: 40px;
-    padding-bottom: 50px;
-}
-
-.about-wrapper {
-    justify-content: center;
 }
 
 .about-info {
     max-width: 500px;
-    margin-right: 150px;
 }
 
 .about-title {
-    padding-top: 30px;
-    padding-bottom: 10px;
+    justify-content: flex-start;
     font-size: 28px;
 }
 
@@ -124,23 +115,8 @@
     padding-top: 10px; 
 }
 
-.about-img {
-    width: 390px;
-    padding-top: 30px;
-}
-
-.rest {
-    padding-top: 40px;
-    padding-bottom: 50px;
-}
-
-.rest-wrapper {
-    justify-content: center;
-}
-
 .rest-title {
-    padding-top: 30px;
-    padding-bottom: 10px;
+    justify-content: flex-start;
     font-size: 28px;
 }
 
@@ -151,24 +127,16 @@
 
 .rest-info {
     max-width: 500px;
-    margin-left: 150px;
-}
-
-.rest-img {
-    width: 390px;
-    padding-top: 30px;
 }
 
 .form {
     background-color: #f7f7f7;
-    padding: 40px;
 }
 
 .form-wrapper {
     flex-direction: column;
     justify-content: center;
-    padding: 60px;
-    
+    padding: 80px;   
 }
 
 .form-title {
@@ -190,7 +158,7 @@
 
 .form legend {
     color: #2ed5b2;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: bold;
 }
 
@@ -199,6 +167,13 @@
     justify-content: space-between;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.form-desc {
+    border-radius: 10px;
+    height: 30px;
+    background-color: #fff;
+    border: 1px solid rgb(204, 204, 204);
 }
 
 .form-label {
@@ -228,16 +203,15 @@
 
 .footer {
     background-color:rgb(48, 56, 70);
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .footer-wrapper {
     max-width: 1300px;
-    padding-left: 20px;
-    padding-right: 20px;
     margin-left: auto;
     margin-right: auto;
+    align-items: flex-start;
     justify-content: space-between;
 }
 
@@ -285,11 +259,9 @@
     color: rgb(48, 56, 70);
 }
 
-.form-desc {
-    border-radius: 10px;
-    height: 30px;
-    background-color: #fff;
-    border: 1px solid rgb(204, 204, 204);
+.pd-50 {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .align-center {
@@ -308,6 +280,10 @@
     width: 100%;
 }
 
+.wd-390 {
+    width: 390px;
+}
+
 .txt-dec-none {
     text-decoration: none;
 }
@@ -315,4 +291,9 @@
 .inherit {
     color: inherit;
 }
+
+.jc-around {
+    justify-content: space-around;
+}
+
 
